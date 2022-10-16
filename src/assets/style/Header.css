@@ -1,0 +1,34 @@
+.header_main_div{
+    padding-top: 160px;
+}
+.header_heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.header_p{
+    font-family: 'Montserrat', sans-serif;
+    color: #02293E;
+    font-weight: 500;
+    font-size: 14px;
+}
+.header_btn{
+    background-color: #1092B2 !important;
+    padding: 5px 40px !important;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    }
+
+
+@media screen and (max-width: 767px) {
+    .header_main_div{
+        padding-top: 20px;
+    }
+    .header_main_heading {
+     text-align: center;
+    }
+    .header_img{
+        margin-top: 50px;
+    }
+  }

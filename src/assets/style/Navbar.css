@@ -1,0 +1,38 @@
+.navbar_top_main{
+    position: sticky;
+    top: 0;
+    z-index: 999 !important;
+}
+a.links_navbar {
+    text-decoration: none;
+    color: black;
+}
+a.links_navbar:hover {
+    color: #1092B2;
+}
+.custom_nav{
+    background-color: transparent !important;
+    font-family: 'Montserrat', sans-serif;
+    color: #02293E;
+    font-weight: 500;
+}
+button.btn.navbar_btn {
+    padding: 5px 30px;
+}
+.navbar_left{
+    justify-content: end;
+}
+.navbar_btn{
+background-color: #1092B2 !important;
+padding: 5px 40px !important;
+margin-left: 40px;
+border-radius: 7px;
+border: none;
+cursor: pointer;
+}
+.nav-icon{
+    width: 80%;
+    height: 24px;
+    width: 24px;
+    
+}

@@ -1,0 +1,38 @@
+.section_accordian_main{
+  padding-top: 200px;
+}
+.accordian_img_position{
+  position: absolute;
+    width: 20%;
+    top: -139px;
+    left: -78px;
+}
+.accordian_img_position {
+  position: absolute;
+  width: 32%;
+  top: -315px;
+  left: -205px;
+}
+.accordion-item {
+  margin-bottom: 15px;
+  border-radius: 10px !important;
+}
+
+
+@media screen and (max-width: 767px) {
+  .section_accordian_main{
+    padding-top: 20px;
+  }
+  button.btn.btn-success.invest_btn {
+    width: 36%;
+  }
+  .accordian_img_position{
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  button.btn.btn-success.invest_btn {
+    width: 70%;
+    margin-top: 0px;
+}
+}

@@ -1,0 +1,53 @@
+.section_stack_main{
+    padding-top: 200px;
+}
+.stake_rec{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.stake_img{
+    height: 40px;
+    width: 40px;
+}
+.stake_p{
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+.stake_btn{
+    background-color: #1092B2 !important;
+    width: 90% !important;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+}
+.stake-digit{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+   
+}
+.stake_img_position {
+    position: absolute;
+    width: 20%;
+    top: -139px;
+    left: -78px;
+}
+
+@media screen and (max-width: 767px) {
+    .section_stack_main{
+        padding-top: 20px;
+    }
+    .stake_img_position {
+     display: none;
+    }
+    
+  }
+
+
+

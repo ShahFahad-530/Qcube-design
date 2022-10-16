@@ -1,0 +1,29 @@
+.section_invest_main{
+    padding-top: 250px;
+}
+.invest_img {
+    position: absolute;
+    width: 18%;
+    top: -134px;
+    right: -78px;
+}
+.invest_btn {
+    background-color: #1092B2 !important;
+    width: 20%;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin-top: 47px;
+}
+
+@media screen and (max-width: 767px) {
+    .invest_btn_div{
+        margin-top: 16px;
+    }
+    .section_invest_main{
+        padding-top: 20px;
+    }
+    .invest_img {
+     display: none;
+    }
+  }
